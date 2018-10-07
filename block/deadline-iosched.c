@@ -314,7 +314,7 @@ dispatch_request:
 	 */
 	dd->batching++;
 	deadline_move_request(dd, rq);
-
+	
 	return 1;
 }
 
